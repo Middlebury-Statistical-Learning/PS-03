@@ -1,0 +1,11 @@
+Crime Recidivism
+
+For this model, the input data affects the output of the model so that poor/minority neighborhoods see biased results. This is because the input data is biased. For example the questionnaire data used in the model asks if you "come from a high crime neighborhood?". This itself is a proxy for class, which creates biases in the model's output. Also the model abstracts out structural issues that lead to crime and recidivism, which again is biased toward minorities and those in poverty.
+
+Tech Company
+
+In this model, the data is self fulfilling. Because the input data starts skewed toward male engineers, the outputs of the model is skewed toward male engineers. This is a lesson in making sure that your training data is random and unbiased.
+
+Teachers
+
+This is an issue of taking a massive problem with a number of exogneous variables and trying to simplify it into a model. There may be a model that exists for judging teacher performance, but in this case it seems to be underfitted with poor variable choices. Additionally, some aspects of the model seem to be game-able or affected by exogenous variables, for example teachers cheating in previous years.
