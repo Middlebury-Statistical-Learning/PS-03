@@ -1,0 +1,30 @@
+Explain in three paragraphs Cathy O’Neil’s argument of how supposedly objective mathematical/algorithmic models reinforce inequality in the context of 1) crime recidivism, 2) the thought experiment of hiring in tech firms and 3) teacher evaluations.
+
+
+Prisoners get a score of how likely they’ll return to prison based on several
+“objective” factors, and that score is used later on in trials that can determine
+how long their sentences last. However, although factors like race and income don’t
+technically make it into the algorithms, thereby making them “objective,” factors like
+ZIP code and number of previous police interactions (both of which inherently encode
+race and income) do come into play in these algorithms. Therefore, attributes that
+were not necessarily under the control of the individuals play into criminals’
+scores, which can therefore affect how long they’re in prison for, which, in turn, then
+affects their future prospects, which may force them to turn back to crime, etc. The
+feedback cycle is not objective, despite appearances. It’s furthermore not a case by
+case basis, but rather a prediction for people who share the same characteristics, but
+can then affect a case that might not otherwise have been pulled into the feedback loop.
+
+In the thought experiment, say that initially firms hire more men than women, or more
+white people than people of color. Then the algorithms will learn that men/white people
+are more likely to succeed at the company and begin to weed out women and people of color,
+just because of previous data that might already have been skewed. It’s all based on the
+history of the company and their previous hiring practices, which may have been more
+biased. The algorithm then chooses white/men, which further reinforces the cycle.
+
+Teachers are evaluated on scores which are based on whether or not their students perform well. However, initially these scores were not based on students who were actually
+proficient, but rather only on students who needed to perform better, which skewed
+the data towards teachers of students from poorer backgrounds (who tended to perform
+worse in schools). The scoring was then changed to being the error of how well the
+students performed vs. how well they were predicted to do, but based on the previous
+scores, which was a bad model. On a higher level, O’Neil’s argument with all of her examples is that the way data is used is based on preexisting bias, which makes skewed
+predictions that don’t account for the bias.
