@@ -23,7 +23,7 @@ train_mse
 submission <- test %>%
   select(ID) %>%
   mutate(y = predict(model, newdata = test)) %>%
-  readr::write_csv("titanic/submission.csv")
+  readr::write_csv("PS03_submission_Will_Ernst.csv")
 
 
 ########### Pseudo Scoring Functions ############
