@@ -1,0 +1,33 @@
+
+# Cathy O'Neil Podcast Response
+
+#
+# The recidivism risk scoring, which is used to if defendants should serve
+# longer sentences, creates a pernicious feed back loop where factors like zip
+# code, or familial history which are proxies for race, are used in these
+# algorithms. These factors would never be used in a court of law, but because
+# they are implemented within a mathematical model, people don’t question the
+# ethicality and the implications of using them. Thus the algorithm perpetuates
+# racist societal trends.
+#
+# In O’Neil’s thought experiment for , she has us imagine that an engineering
+# firm was planning to hire new engineers and that they created an algorithm
+# based on historical data on their previous hiring practices and the success of
+# those who were hired. This sounds like a good idea, but if the firm did not
+# consider that women have historically been excluded, then the model will
+# continue to perpetuate that trend in the results it produces. It is not
+# necessarily the fault of the algorithm, but she reiterates that we should not
+# have a blind trust of the these models for this kind of reason.
+#
+# While the general motivation behind the teacher value added model, fix
+# education by firing bad teachers, is not inherently unethical or biased, in
+# practice it does not provide a real solution to problems in our educational
+# system. The model evaluates a teachers impact on their students by measuring
+# their predicted performance, based on previous performance and several other
+# factors, against the actual performance. But because performance on
+# standardized tests is largely correlated with poverty and other factors wholly
+# out of control of teachers this model is punishing teachers (and students) for
+# more than they are responsible for. Additionally, the actual source code of
+# the model is not available to the public, and potentially not even to the
+# Department of Education, which takes away the accountability that we should
+# expect in this type of decision making.
